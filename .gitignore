@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+outputs/
+*.png
+*.csv
+
+# Local C-SHAP repo or zip
+CSHAP-for-time-series/
+CSHAP_for_time_series_extracted/
+CSHAP-for-time-series.zip
+
+# Data / model artifacts
+data/
+models/
+*.pt
+*.pth
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+numpy
+pandas
+yfinance
+scikit-learn
+torch
+captum
+matplotlib
+shap
+PyWavelets
+emd
+nbformat
