@@ -1,33 +1,30 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
 .venv/
+venv/
+env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Generated outputs
-outputs/
-*.png
-*.csv
-
-# Local C-SHAP repo or zip
-CSHAP-for-time-series/
-CSHAP_for_time_series_extracted/
-CSHAP-for-time-series.zip
-
-# Data / model artifacts
-data/
-models/
-*.pt
-*.pth
-*.pkl
-
-# OS files
+# IDE and OS files
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
+
+# Generated analysis artifacts
+outputs/*
+!outputs/.gitkeep
+
+# External repositories and downloaded archives
+external/*
+!external/README.md
+*.zip
